@@ -1,0 +1,16 @@
+platform :ios, '12.4'
+
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+# 忽略引入库的所有警告
+inhibit_all_warnings!
+
+target 'AppMailing' do
+    pod 'AFNetworking','~> 3.2.1' 
+    pod 'MJRefresh', '~> 3.3.0'
+    pod 'YYModel', '~> 1.0.4'
+    pod 'Masonry', '~> 1.1.0'
+    pod 'MBProgressHUD', '~> 1.2.0'
+    pod 'YYWebImage'
+    pod 'dsBridge'
+end

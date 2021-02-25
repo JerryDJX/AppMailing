@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vnh-OA-260">
+                                <rect key="frame" x="176" y="123" width="62" height="30"/>
+                                <state key="normal" title="跳转失败"/>
+                                <connections>
+                                    <action selector="mailingFaile:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oYs-Ly-q9p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lv9-ib-4op">
+                                <rect key="frame" x="176" y="197" width="62" height="30"/>
+                                <state key="normal" title="跳转成功"/>
+                                <connections>
+                                    <action selector="mailingSucceed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bBq-IN-mYc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vnh-OA-260" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="79" id="U43-x1-nGh"/>
+                            <constraint firstItem="Lv9-ib-4op" firstAttribute="top" secondItem="vnh-OA-260" secondAttribute="bottom" constant="44" id="elp-Xz-crG"/>
+                            <constraint firstItem="Lv9-ib-4op" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qS5-yA-D0T"/>
+                            <constraint firstItem="vnh-OA-260" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xeX-cV-uux"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
