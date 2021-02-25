@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<head lang="zh-cmn-Hans">
+
+    <meta charset="UTF-8">
+
+    <title>DSBridge Test</title>
+
+    <meta name="renderer" content="webkit">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+
+    <meta name="viewport" content="width=device-width,initial-scale=0.5,user-scalable=no"/>
+
+    <!--require dsbridge init js-->
+
+    <script src="https://cdn.jsdelivr.net/npm/dsbridge/dist/dsbridge.js"> </script>
+
+</head>
+
+<style>
+
+    .btn {
+
+        text-align: center;
+
+        background: #eee;
+
+        color: #000;
+
+        padding: 20px;
+
+        margin: 30px;
+
+        font-size: 24px;
+
+        border-radius: 4px;
+
+        box-shadow: 4px 2px 10px #999;
+
+    }
+
+
+
+    .btn:active {
+
+        opacity: .7;
+
+        box-shadow: 4px 2px 10px #555;
+
+    }
+
+    .title {
+        text-align: center;
+        padding: 20px;
+        margin: 30px;
+        font-size: 24px;
+    }
+
+    input[type=text] {
+        width: 600px;
+        padding: 0 25px;
+        margin: 30px;
+        height: 60px;
+        border: 1px solid #f2f2f2;
+        background: #f6f6f6;
+        color: #202124;
+        font-size: 24px;
+        line-height: 48px;
+    }
+
+
+
+
+</style>
+
+<body>
+    <div class="title">以下是Web页面</div>
+    <div class="btn" onclick="callSyn()">跳转到微信</div>
+    
+    <div><input type="text" id="param"></div>
+    <div class="btn" onclick="callSyn2()">跳转到自制APP并传参数</div>
+
+    <script>
+
+        function callSyn() {
+          dsBridge.call("testSyn", "Hello")
+        }
+    
+        function callSyn2() {
+            var param = document.getElementById("param")
+            dsBridge.call("testSyn2", param.value)
+        }
+    </script>
+</body>
+</html>

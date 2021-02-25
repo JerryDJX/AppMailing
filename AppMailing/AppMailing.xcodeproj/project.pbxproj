@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0B1C8848259F054DA588F1 /* libPods-AppMailing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD39CBFB30C4450339E0761 /* libPods-AppMailing.a */; };
+		ADB38A2825E5D70500726DDB /* NSString+UrlEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB38A2725E5D70500726DDB /* NSString+UrlEncode.m */; };
+		ADB89C7825E49609006B28C0 /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = ADB89C7725E49609006B28C0 /* Resource */; };
+		ADB89C7F25E499BD006B28C0 /* JsApiTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB89C7E25E499BD006B28C0 /* JsApiTest.m */; };
+		DE64A74D25E1057A003B0286 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE64A74C25E1057A003B0286 /* AppDelegate.m */; };
+		DE64A75025E1057A003B0286 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE64A74F25E1057A003B0286 /* SceneDelegate.m */; };
+		DE64A75325E1057A003B0286 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE64A75225E1057A003B0286 /* ViewController.m */; };
+		DE64A75625E1057A003B0286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE64A75425E1057A003B0286 /* Main.storyboard */; };
+		DE64A75825E1057B003B0286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE64A75725E1057B003B0286 /* Assets.xcassets */; };
+		DE64A75B25E1057B003B0286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE64A75925E1057B003B0286 /* LaunchScreen.storyboard */; };
+		DE64A75E25E1057B003B0286 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE64A75D25E1057B003B0286 /* main.m */; };
+		DE64A76825E1057B003B0286 /* AppMailingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE64A76725E1057B003B0286 /* AppMailingTests.m */; };
+		DE64A77325E1057B003B0286 /* AppMailingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE64A77225E1057B003B0286 /* AppMailingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE64A76425E1057B003B0286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE64A74025E1057A003B0286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE64A74725E1057A003B0286;
+			remoteInfo = AppMailing;
+		};
+		DE64A76F25E1057B003B0286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE64A74025E1057A003B0286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE64A74725E1057A003B0286;
+			remoteInfo = AppMailing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02DB3A08B403B1C6F86CAEAD /* Pods-AppMailing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMailing.debug.xcconfig"; path = "Target Support Files/Pods-AppMailing/Pods-AppMailing.debug.xcconfig"; sourceTree = "<group>"; };
+		4AD39CBFB30C4450339E0761 /* libPods-AppMailing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppMailing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		758A5A0B70433D6F868638C5 /* Pods-AppMailing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMailing.release.xcconfig"; path = "Target Support Files/Pods-AppMailing/Pods-AppMailing.release.xcconfig"; sourceTree = "<group>"; };
+		ADB38A2625E5D70500726DDB /* NSString+UrlEncode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+UrlEncode.h"; sourceTree = "<group>"; };
+		ADB38A2725E5D70500726DDB /* NSString+UrlEncode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+UrlEncode.m"; sourceTree = "<group>"; };
+		ADB89C7725E49609006B28C0 /* Resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resource; sourceTree = "<group>"; };
+		ADB89C7D25E499BD006B28C0 /* JsApiTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsApiTest.h; sourceTree = "<group>"; };
+		ADB89C7E25E499BD006B28C0 /* JsApiTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsApiTest.m; sourceTree = "<group>"; };
+		DE64A74825E1057A003B0286 /* AppMailing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMailing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE64A74B25E1057A003B0286 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE64A74C25E1057A003B0286 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE64A74E25E1057A003B0286 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DE64A74F25E1057A003B0286 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DE64A75125E1057A003B0286 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE64A75225E1057A003B0286 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE64A75525E1057A003B0286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE64A75725E1057B003B0286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE64A75A25E1057B003B0286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE64A75C25E1057B003B0286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE64A75D25E1057B003B0286 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE64A76325E1057B003B0286 /* AppMailingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppMailingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE64A76725E1057B003B0286 /* AppMailingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppMailingTests.m; sourceTree = "<group>"; };
+		DE64A76925E1057B003B0286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE64A76E25E1057B003B0286 /* AppMailingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppMailingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE64A77225E1057B003B0286 /* AppMailingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppMailingUITests.m; sourceTree = "<group>"; };
+		DE64A77425E1057B003B0286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE64A74525E1057A003B0286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0B1C8848259F054DA588F1 /* libPods-AppMailing.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE64A76025E1057B003B0286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE64A76B25E1057B003B0286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		930B01ADA3CCB46392697EFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02DB3A08B403B1C6F86CAEAD /* Pods-AppMailing.debug.xcconfig */,
+				758A5A0B70433D6F868638C5 /* Pods-AppMailing.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ADB89C7C25E49994006B28C0 /* JSApi */ = {
+			isa = PBXGroup;
+			children = (
+				ADB89C7D25E499BD006B28C0 /* JsApiTest.h */,
+				ADB89C7E25E499BD006B28C0 /* JsApiTest.m */,
+			);
+			path = JSApi;
+			sourceTree = "<group>";
+		};
+		DE64A73F25E1057A003B0286 = {
+			isa = PBXGroup;
+			children = (
+				DE64A74A25E1057A003B0286 /* AppMailing */,
+				DE64A76625E1057B003B0286 /* AppMailingTests */,
+				DE64A77125E1057B003B0286 /* AppMailingUITests */,
+				DE64A74925E1057A003B0286 /* Products */,
+				DE64A78F25E1069E003B0286 /* Frameworks */,
+				930B01ADA3CCB46392697EFE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DE64A74925E1057A003B0286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE64A74825E1057A003B0286 /* AppMailing.app */,
+				DE64A76325E1057B003B0286 /* AppMailingTests.xctest */,
+				DE64A76E25E1057B003B0286 /* AppMailingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE64A74A25E1057A003B0286 /* AppMailing */ = {
+			isa = PBXGroup;
+			children = (
+				ADB89C7C25E49994006B28C0 /* JSApi */,
+				ADB89C7725E49609006B28C0 /* Resource */,
+				DE64A74B25E1057A003B0286 /* AppDelegate.h */,
+				DE64A74C25E1057A003B0286 /* AppDelegate.m */,
+				DE64A74E25E1057A003B0286 /* SceneDelegate.h */,
+				DE64A74F25E1057A003B0286 /* SceneDelegate.m */,
+				DE64A75125E1057A003B0286 /* ViewController.h */,
+				DE64A75225E1057A003B0286 /* ViewController.m */,
+				DE64A75425E1057A003B0286 /* Main.storyboard */,
+				DE64A75725E1057B003B0286 /* Assets.xcassets */,
+				DE64A75925E1057B003B0286 /* LaunchScreen.storyboard */,
+				DE64A75C25E1057B003B0286 /* Info.plist */,
+				DE64A75D25E1057B003B0286 /* main.m */,
+				ADB38A2625E5D70500726DDB /* NSString+UrlEncode.h */,
+				ADB38A2725E5D70500726DDB /* NSString+UrlEncode.m */,
+			);
+			path = AppMailing;
+			sourceTree = "<group>";
+		};
+		DE64A76625E1057B003B0286 /* AppMailingTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE64A76725E1057B003B0286 /* AppMailingTests.m */,
+				DE64A76925E1057B003B0286 /* Info.plist */,
+			);
+			path = AppMailingTests;
+			sourceTree = "<group>";
+		};
+		DE64A77125E1057B003B0286 /* AppMailingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE64A77225E1057B003B0286 /* AppMailingUITests.m */,
+				DE64A77425E1057B003B0286 /* Info.plist */,
+			);
+			path = AppMailingUITests;
+			sourceTree = "<group>";
+		};
+		DE64A78F25E1069E003B0286 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AD39CBFB30C4450339E0761 /* libPods-AppMailing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE64A74725E1057A003B0286 /* AppMailing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE64A77725E1057B003B0286 /* Build configuration list for PBXNativeTarget "AppMailing" */;
+			buildPhases = (
+				AF4876EB3C434608A1EA82E0 /* [CP] Check Pods Manifest.lock */,
+				DE64A74425E1057A003B0286 /* Sources */,
+				DE64A74525E1057A003B0286 /* Frameworks */,
+				DE64A74625E1057A003B0286 /* Resources */,
+				B2E61EE7954EDD09818D4C12 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppMailing;
+			productName = AppMailing;
+			productReference = DE64A74825E1057A003B0286 /* AppMailing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE64A76225E1057B003B0286 /* AppMailingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE64A77A25E1057B003B0286 /* Build configuration list for PBXNativeTarget "AppMailingTests" */;
+			buildPhases = (
+				DE64A75F25E1057B003B0286 /* Sources */,
+				DE64A76025E1057B003B0286 /* Frameworks */,
+				DE64A76125E1057B003B0286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE64A76525E1057B003B0286 /* PBXTargetDependency */,
+			);
+			name = AppMailingTests;
+			productName = AppMailingTests;
+			productReference = DE64A76325E1057B003B0286 /* AppMailingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE64A76D25E1057B003B0286 /* AppMailingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE64A77D25E1057B003B0286 /* Build configuration list for PBXNativeTarget "AppMailingUITests" */;
+			buildPhases = (
+				DE64A76A25E1057B003B0286 /* Sources */,
+				DE64A76B25E1057B003B0286 /* Frameworks */,
+				DE64A76C25E1057B003B0286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE64A77025E1057B003B0286 /* PBXTargetDependency */,
+			);
+			name = AppMailingUITests;
+			productName = AppMailingUITests;
+			productReference = DE64A76E25E1057B003B0286 /* AppMailingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE64A74025E1057A003B0286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DE64A74725E1057A003B0286 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					DE64A76225E1057B003B0286 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DE64A74725E1057A003B0286;
+					};
+					DE64A76D25E1057B003B0286 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = DE64A74725E1057A003B0286;
+					};
+				};
+			};
+			buildConfigurationList = DE64A74325E1057A003B0286 /* Build configuration list for PBXProject "AppMailing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE64A73F25E1057A003B0286;
+			productRefGroup = DE64A74925E1057A003B0286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE64A74725E1057A003B0286 /* AppMailing */,
+				DE64A76225E1057B003B0286 /* AppMailingTests */,
+				DE64A76D25E1057B003B0286 /* AppMailingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE64A74625E1057A003B0286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB89C7825E49609006B28C0 /* Resource in Resources */,
+				DE64A75B25E1057B003B0286 /* LaunchScreen.storyboard in Resources */,
+				DE64A75825E1057B003B0286 /* Assets.xcassets in Resources */,
+				DE64A75625E1057A003B0286 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE64A76125E1057B003B0286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE64A76C25E1057B003B0286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF4876EB3C434608A1EA82E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppMailing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E61EE7954EDD09818D4C12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppMailing/Pods-AppMailing-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppMailing/Pods-AppMailing-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppMailing/Pods-AppMailing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE64A74425E1057A003B0286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE64A75325E1057A003B0286 /* ViewController.m in Sources */,
+				DE64A74D25E1057A003B0286 /* AppDelegate.m in Sources */,
+				DE64A75E25E1057B003B0286 /* main.m in Sources */,
+				ADB89C7F25E499BD006B28C0 /* JsApiTest.m in Sources */,
+				DE64A75025E1057A003B0286 /* SceneDelegate.m in Sources */,
+				ADB38A2825E5D70500726DDB /* NSString+UrlEncode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE64A75F25E1057B003B0286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE64A76825E1057B003B0286 /* AppMailingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE64A76A25E1057B003B0286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE64A77325E1057B003B0286 /* AppMailingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE64A76525E1057B003B0286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE64A74725E1057A003B0286 /* AppMailing */;
+			targetProxy = DE64A76425E1057B003B0286 /* PBXContainerItemProxy */;
+		};
+		DE64A77025E1057B003B0286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE64A74725E1057A003B0286 /* AppMailing */;
+			targetProxy = DE64A76F25E1057B003B0286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE64A75425E1057A003B0286 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE64A75525E1057A003B0286 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE64A75925E1057B003B0286 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE64A75A25E1057B003B0286 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE64A77525E1057B003B0286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE64A77625E1057B003B0286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE64A77825E1057B003B0286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02DB3A08B403B1C6F86CAEAD /* Pods-AppMailing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EB8QBCY43A;
+				INFOPLIST_FILE = AppMailing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.people.AppMailing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE64A77925E1057B003B0286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758A5A0B70433D6F868638C5 /* Pods-AppMailing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EB8QBCY43A;
+				INFOPLIST_FILE = AppMailing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.people.AppMailing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE64A77B25E1057B003B0286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5366WL8NHJ;
+				INFOPLIST_FILE = AppMailingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.people.AppMailingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppMailing.app/AppMailing";
+			};
+			name = Debug;
+		};
+		DE64A77C25E1057B003B0286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5366WL8NHJ;
+				INFOPLIST_FILE = AppMailingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.people.AppMailingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppMailing.app/AppMailing";
+			};
+			name = Release;
+		};
+		DE64A77E25E1057B003B0286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5366WL8NHJ;
+				INFOPLIST_FILE = AppMailingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.people.AppMailingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppMailing;
+			};
+			name = Debug;
+		};
+		DE64A77F25E1057B003B0286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5366WL8NHJ;
+				INFOPLIST_FILE = AppMailingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.people.AppMailingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppMailing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE64A74325E1057A003B0286 /* Build configuration list for PBXProject "AppMailing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE64A77525E1057B003B0286 /* Debug */,
+				DE64A77625E1057B003B0286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE64A77725E1057B003B0286 /* Build configuration list for PBXNativeTarget "AppMailing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE64A77825E1057B003B0286 /* Debug */,
+				DE64A77925E1057B003B0286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE64A77A25E1057B003B0286 /* Build configuration list for PBXNativeTarget "AppMailingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE64A77B25E1057B003B0286 /* Debug */,
+				DE64A77C25E1057B003B0286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE64A77D25E1057B003B0286 /* Build configuration list for PBXNativeTarget "AppMailingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE64A77E25E1057B003B0286 /* Debug */,
+				DE64A77F25E1057B003B0286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE64A74025E1057A003B0286 /* Project object */;
+}
